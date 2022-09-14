@@ -6,6 +6,7 @@ import Landing from './components/layout/Landing';
 import Footer from './components/layout/Footer';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register'
+import CryptoComponent from "./crypto/crypto";
 import setAuthToken from './utils/setAuthToken';
 import store from './store';
 import { loadUser } from './actions/auth';
@@ -26,6 +27,7 @@ const App = () => {
   <Router>
     <Nav />
     <Routes>
+      {/*<Route exact path="/crypto" element={<CryptoComponent/>}/>*/}
     <Route path = '/' element={<Landing/>} />
     <Route path = "register" element={<Register/>} />
      <Route path = "login" element={<Login/>} />

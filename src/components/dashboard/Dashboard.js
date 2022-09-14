@@ -1,8 +1,9 @@
 import React from 'react'
+import CryptoComponent from "../../crypto/crypto";
 
 const Dashboard = () =>{
   return (
-    <div>Dashboard</div>
+    <CryptoComponent/>
   )
 }
 
