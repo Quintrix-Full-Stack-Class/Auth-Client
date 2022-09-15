@@ -9,12 +9,12 @@ import Chart from "./components/Chart";
 import CoinsTable from "./components/CoinsTable";
 import PleaseLogin from "./components/PleaseLogin";
 
-function CryptoComponent() {
+function CryptoComponent(props) {
 
   // const userFromSecurity = "crypto@maniac.gov";
   // const userFromSecurity = "jerry@usmc.gov";
   // const userFromSecurity = "";
-  const userFromSecurity = "miguel@debloat.us";
+  const userFromSecurity = props.user.id;
   const [reload, setReload] = useState(true);
   useEffect(() => {
     WebFont.load({

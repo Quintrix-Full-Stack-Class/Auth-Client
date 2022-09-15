@@ -36,6 +36,7 @@ const App = () => {
             path="dashboard"
             element={<PrivateRoute component={Dashboard} />}
           />
+   
     </Routes>
     <Footer />
   </Router>

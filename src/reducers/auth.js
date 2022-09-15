@@ -31,6 +31,7 @@ import {
       //       user: payload
       //   };
       case REGISTER_SUCCESS:
+        return {...state};
       case LOGIN_SUCCESS:
         localStorage.setItem('token', payload.accessToken);
         return {
@@ -40,8 +41,11 @@ import {
             loading: false
         };
       case REGISTER_FAIL:
+        return {...state};
       case AUTH_ERROR:
+        return {...state};
       case LOGIN_FAIL:
+        return {...state};
       case LOGOUT:
         localStorage.removeItem('token');
         return {
@@ -51,6 +55,6 @@ import {
             loading: false
         };
       default:
-        return state;
+        return {...state};
     }
   }
