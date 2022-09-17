@@ -1,0 +1,56 @@
+.widgetGoal {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    line-height: 1;
+    text-align: center;
+}
+
+.widgetAchieve {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    line-height: 1;
+    text-align: center;
+    background-color: goldenrod;
+    color: #36013f;;
+}
+
+.timeRemaining {
+    font-size: 12px;
+}
+
+.goalTitle {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.goalDescription{
+    margin: 20px;
+    font-size: 15px;
+}
+
+.installments{
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.t_amountSaved{
+    font-size: 15px;
+}
+
+.g_amountSaved{
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.endDate{
+    font-size: 12px;
+}
